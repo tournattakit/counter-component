@@ -1,0 +1,36 @@
+{
+  "name": "counter-component",
+  "version": "1.0.0",
+  "description": "React counter component",
+  "main": "counter.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tournattakit/counter-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tournattakit/counter-component/issues"
+  },
+  "homepage": "https://github.com/tournattakit/counter-component#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  }
+}

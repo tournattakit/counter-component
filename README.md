@@ -1,2 +1,7 @@
-# counter-component
-Counter is react component for print running number
+# counter-component 🌌
+React counter component
+
+## Usage
+```javascript
+<Counter from={0} to={1000} delay={10} />
+```
